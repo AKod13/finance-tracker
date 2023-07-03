@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'hirb'
 gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
+gem 'railties'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -45,9 +48,9 @@ group :development do
   gem 'sqlite3', '~> 1.4'
 end
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#  gem 'pg'
+# end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
