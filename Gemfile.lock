@@ -155,6 +155,7 @@ GEM
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    pg (1.5.3)
     popper_js (2.11.7)
     public_suffix (4.0.7)
     puma (3.12.6)
@@ -280,6 +281,7 @@ DEPENDENCIES
   iex-ruby-client
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.11)
   rails (~> 6.0.0)
   railties
